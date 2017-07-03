@@ -3,9 +3,9 @@
 set -e  
 source /assets/colorecho  
 
-#chown -R oracle:oinstall /install
+#chown -R oracle:dba /install
   
-if [ ! -d "/opt/oracle/app/product/11.2.0/dbhome_1" ]; then  
+if [ ! -d "/ghca/oracle/product/10.1.0/db_1" ]; then  
     echo_yellow "Database is not installed. Installing..."  
     /assets/install.sh  
 fi  

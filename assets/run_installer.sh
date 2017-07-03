@@ -1,3 +1,3 @@
 #!/usr/bin/env bash  
   
-/install/database/runInstaller -silent -ignorePrereq -waitforcompletion -responseFile /assets/db_install.rsp 
+/tmp/10g/Disk1/runInstaller -silent -responseFile /tmp/10g/Disk1/response/interprise.rsp
