@@ -1,0 +1,16 @@
+#Oracle
+umask=022
+export ORACLE_BASE=/ghca/oracle10g
+export ORACLE_HOME=$ORACLE_BASE/product/10.1.0/db_1
+export TNS_ADMIN=$ORACLE_HOME/network/admin
+export ORACLE_SID=sdtt
+export LIBPATH=$ORACLE_HOME/lib:$ORACLE_HOME/lib32
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib
+export PATH=$ORACLE_HOME/bin:/usr/bin:/etc:/usr/lbin:/usr/bin/X11:/usr/local/bin
+export ORA_NLS33=$ORACLE_HOME/nls/admin/data
+export NLS_LANG=AMERICAN_AMERICA.ZHS16GBK
+export EDITOR=vi
+
+export JAVA_HOME=$ORACLE_HOME/jdk
+export PATH=$ORACLE_HOME/jdk/bin:$PATH
+alias ll='ls -l'
